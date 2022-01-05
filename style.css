@@ -1,0 +1,108 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;}
+
+ /* _____________part-1 */ 
+ .header-part{
+     margin-top: 100px;
+     display: flex;
+ }
+ .orange{
+     color: orange;
+ }
+ h1{
+    font-size: 60px;
+    margin: 0px;
+    border-left:3px solid red;
+    border-radius: 3px;
+   
+    
+    }
+  
+    .half-width{
+        width: 50%;
+        padding-left: 5%;
+     
+    }
+    .half-width img{
+     width: 80%; 
+     margin-left: 20px;
+     
+    }
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(#FF5959,#FF5959);
+         padding: 10px 40px;
+         color: wheat;
+         font-weight: 700;
+         border-radius: 5px;
+    }
+/* .half-width{
+    margin-top: 50px;
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+   margin-bottom:20px ;
+    
+    }
+  
+.part_1{
+    background-color: E5E5E5;
+}
+.orange{
+   color:orange;
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(#f74f4f,#FF5959);
+    padding: 10px 40px;
+    color: rgb(236, 233, 227);
+    font-weight: 700;
+    border-radius: 5px;
+}
+.half-width img{
+width: 80%;
+}
+.first-bannar{
+    display: flex;
+    padding-left: 5%;
+}
+.person-img-1{
+   width: 50%;
+ 
+    padding-left: 5%;
+}
+
+
+/* _____________part-2 start here */
+/* .part-2{
+    margin-top: 100px;
+}
+
+.mission-heading{
+    text-align: center;
+}
+.mission-area{
+    display: flex;
+}
+img{
+    height: 30%px;
+    width: 30%px; */
+/* }
+.mission-part-1{
+    width: 27%;
+   margin-left: 3%;
+   margin-right: 3%;
+   background-color: #4F9DA6;
+}
+.mission-part-2{
+    width: 27%;
+   margin-left: 3%;
+   margin-right: 3%;
+} */
+/* .mission-part-3{
+    width: 27%;
+   margin-left: 3%;
+   margin-right: 3%;
+} */
