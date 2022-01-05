@@ -10,7 +10,7 @@
  .orange{
      color: orange;
  }
- h1{
+ .part-2-heading{
     font-size: 60px;
     margin: 0px;
     border-left:3px solid red;
@@ -27,16 +27,74 @@
     .half-width img{
      width: 80%; 
      margin-left: 20px;
+     margin-top: 0px;
      
     }
-    .link-button{
+    .link-button {
         text-decoration: none;
         background-image: linear-gradient(#FF5959,#FF5959);
          padding: 10px 40px;
          color: wheat;
          font-weight: 700;
          border-radius: 5px;
+       
+       
     }
+    /* part 2 start here */
+    .part-2{
+        text-align: center;
+    }
+    h1{
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    .mission-part-1{
+        background-color: #dbebec;
+        margin: 2%;
+        border-radius: 20px;
+    }
+    .mission-part-1 p{
+   margin-left: 10px;
+   margin-right: 10px;
+    }
+    .mission-part-2{
+        background-color: #ecd5d5;
+        margin: 2%;
+        border-radius: 20px;
+    }
+    .mission-part-1 p{
+        margin-left: 10px;
+        margin-right: 10px;
+         }
+    .mission-part-3{
+        background-color:#FFF4D6;
+        margin: 2%;
+        border-radius: 20px;
+    }
+    .mission-part-1 p{
+        margin-left: 10px;
+        margin-right: 10px;
+         }
+    .mission-img{
+        width: 200px;
+        height: 200px;
+    }
+    .mission-area{
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .half-width{
     margin-top: 50px;
     width: 50%;
