@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0px;}
 
- /* _____________part-1 */ 
+/*  part-1 style start here */
  .header-part{
      margin-top: 100px;
      display: flex;
@@ -30,8 +30,10 @@
      margin-top: 0px;
      
     }
+   
     .link-button {
         text-decoration: none;
+       
         background-image: linear-gradient(#FF5959,#FF5959);
          padding: 10px 40px;
          color: wheat;
@@ -40,18 +42,22 @@
        
        
     }
-    /* part 2 start here */
-    .part-2{
-        text-align: center;
-    }
-    h1{
+    /* part-2 style start here */
+   
+    .mission-heading{
         margin-top: 100px;
         font-size: 40px;
+        text-align: center;
     }
+    .mission-area h1{
+        padding: 5px;
+    }
+   
     .mission-part-1{
         background-color: #dbebec;
-        margin: 2%;
+        margin:2%;
         border-radius: 20px;
+        padding: 7px;
     }
     .mission-part-1 p{
    margin-left: 10px;
@@ -61,6 +67,8 @@
         background-color: #ecd5d5;
         margin: 2%;
         border-radius: 20px;
+        padding: 7px;
+        
     }
     .mission-part-1 p{
         margin-left: 10px;
@@ -70,10 +78,12 @@
         background-color:#FFF4D6;
         margin: 2%;
         border-radius: 20px;
+        padding: 7px;
     }
-    .mission-part-1 p{
+    .mission-part-1 {
         margin-left: 10px;
         margin-right: 10px;
+      
          }
     .mission-img{
         width: 200px;
@@ -82,85 +92,119 @@
     .mission-area{
         display: flex;
     }
+     /*  part-3 style start here */
+     .develop-area{
+         margin-top: 100px;
+         display: flex;
+         background-image: url(images/shapes/shape-1.png);
+         background-repeat: no-repeat;
+         background-position: left;
+         background-size: 200px;
+       
+     }
+     .deloper-describe{
+         margin-left: 50px;
+     }
+     .develop-img{
+         height: 400px;
+         width: 400px;
+         margin-left: 100px;
 
+     }
+     .deloper-describe h1{
+         font-size: 40px;
+     }
 
-
-
-
-
-
-
-
-
-
-
-
-/* .half-width{
-    margin-top: 50px;
-    width: 50%;
-}
-h1{
-    font-size: 50px;
-   margin-bottom:20px ;
-    
+     .developer-button {
+        text-decoration: none;
+        margin-top: 30px;
+        background-image: linear-gradient(#FF5959,#FF5959);
+         padding: 10px 40px;
+         color: white;
+         font-weight: 700;
+         border-radius: 5px;
+       
+       
     }
-  
-.part_1{
-    background-color: E5E5E5;
-}
-.orange{
-   color:orange;
-}
-.link-button{
-    text-decoration: none;
-   background-image: linear-gradient(#f74f4f,#FF5959);
-    padding: 10px 40px;
-    color: rgb(236, 233, 227);
-    font-weight: 700;
-    border-radius: 5px;
-}
-.half-width img{
-width: 80%;
-}
-.first-bannar{
+/*  part-4 style start here */
+.community-area{
+    margin: 100px;
     display: flex;
-    padding-left: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+  background-size: 80px;
+  
 }
-.person-img-1{
-   width: 50%;
- 
-    padding-left: 5%;
-}
-
-
-/* _____________part-2 start here */
-/* .part-2{
+/* part-5 */
+.part-5{
     margin-top: 100px;
 }
-
-.mission-heading{
+.part-5 h1{
+    font-size: 50px;
     text-align: center;
 }
-.mission-area{
+.cars-design{
     display: flex;
 }
-img{
-    height: 30%px;
-    width: 30%px; */
-/* }
-.mission-part-1{
-    width: 27%;
-   margin-left: 3%;
-   margin-right: 3%;
-   background-color: #4F9DA6;
+.cars-design img{
+ height: 300px;
+ width: 300px;
 }
-.mission-part-2{
-    width: 27%;
-   margin-left: 3%;
-   margin-right: 3%;
-} */
-/* .mission-part-3{
-    width: 27%;
-   margin-left: 3%;
-   margin-right: 3%;
-} */
+.cars-design h1{
+font-size: 40px;
+}
+.card-describe-1{
+margin: 2%;
+padding: 10px;
+text-align: center;
+background-color: rgb(211, 199, 199);
+border-radius: 30px;
+}
+.card-describe-2{
+    margin: 2%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(197, 195, 212);
+    border-radius: 30px;
+    }
+    .card-describe-3{
+        margin: 2%;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(173, 221, 217);
+        border-radius: 30px;
+ }
+.card-button{
+    text-decoration: none;
+    margin-top: 30px;
+    background-image: linear-gradient(#FF5959,#FF5959);
+     padding: 10px 40px;
+     color: white;
+     font-weight: 700;
+     border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+/* footer part */
+.footer{
+text-align: center;
+background-color: black;
+color: rgb(212, 205, 205);
+padding: 3%;
+}
+.footer h1{
+    font-size: 30px;
+    font-style: italic;
+
+}
+.red{
+    color: rgb(209, 68, 43);
+}
+
